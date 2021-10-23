@@ -1,0 +1,616 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F39751A6E37EC3FE8AFAA2E3 /* conferencesData.json in Resources */ = {isa = PBXBuildFile; fileRef = F3975855CEE945F741266FA8 /* conferencesData.json */; };
+		F3975372150F7A1FF3687C09 /* ConferencesAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3975E75D861061641FB1F84 /* ConferencesAppTests.swift */; };
+		F39754495E247F59666C2029 /* ConferencesAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F39756426435068CD2E8E3C0 /* ConferencesAppUITests.swift */; };
+		F397546B332F0FAD48599302 /* ConferenceDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = F397567CC51E8AC43C0BA8C2 /* ConferenceDetails.swift */; };
+		F39754857E0FD08D41071670 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F3975496D41E861841080D98 /* Preview Assets.xcassets */; };
+		F39754C352A4B0A4235C6899 /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3975FC77CC51832FB86AD79 /* Data.swift */; };
+		F397567FDC2709BBEC1EE0E3 /* Conference.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3975AF19072EA66DE4B5EE1 /* Conference.swift */; };
+		F39758ED7564596FA67811A5 /* ConferenceList.swift in Sources */ = {isa = PBXBuildFile; fileRef = F39754AA84A57F1D9DC04C89 /* ConferenceList.swift */; };
+		F3975995C1CF05F9D696B87D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3975F08083B7620215B881E /* ContentView.swift */; };
+		F3975E4F9DFA94CA6D1CDA2F /* ConferencesAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3975ED9A8ABAE1EF8641D71 /* ConferencesAppApp.swift */; };
+		F3975EFD0510AB6BFE9D507C /* ConferencesAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F397563488B741C5C77A9090 /* ConferencesAppUITestsLaunchTests.swift */; };
+		F3975FAF7FE12AC2399F080E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F39755E164996F143B569A46 /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F397552A635F1F6F80B5F892 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F397588ECB7B6519663837C6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F3975FC9EB84317A183F6E4B;
+			remoteInfo = ConferencesApp;
+		};
+		F3975DE3DF0640BFCC1AAA52 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F397588ECB7B6519663837C6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F3975FC9EB84317A183F6E4B;
+			remoteInfo = ConferencesApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F3975496D41E861841080D98 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		F39754AA84A57F1D9DC04C89 /* ConferenceList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConferenceList.swift; sourceTree = "<group>"; };
+		F39755E164996F143B569A46 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F397561E02E9BEFC9013C5F8 /* ConferencesAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ConferencesAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F397563488B741C5C77A9090 /* ConferencesAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConferencesAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		F39756426435068CD2E8E3C0 /* ConferencesAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConferencesAppUITests.swift; sourceTree = "<group>"; };
+		F397567CC51E8AC43C0BA8C2 /* ConferenceDetails.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConferenceDetails.swift; sourceTree = "<group>"; };
+		F39757B9084D10D7A95C52BD /* ConferencesApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ConferencesApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F3975855CEE945F741266FA8 /* conferencesData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = conferencesData.json; sourceTree = "<group>"; };
+		F3975AF19072EA66DE4B5EE1 /* Conference.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Conference.swift; sourceTree = "<group>"; };
+		F3975E75D861061641FB1F84 /* ConferencesAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConferencesAppTests.swift; sourceTree = "<group>"; };
+		F3975ED9A8ABAE1EF8641D71 /* ConferencesAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConferencesAppApp.swift; sourceTree = "<group>"; };
+		F3975F08083B7620215B881E /* ContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		F3975F67364496FA9F5302A6 /* ConferencesAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ConferencesAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F3975FC77CC51832FB86AD79 /* Data.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F397579EBACEDB424BAC00C1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F3975A8C56BFA296C3140BC0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F3975DB22EB97C827E0A8476 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F3975137D7910B5070787483 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				F3975F08083B7620215B881E /* ContentView.swift */,
+				F39754AA84A57F1D9DC04C89 /* ConferenceList.swift */,
+				F397567CC51E8AC43C0BA8C2 /* ConferenceDetails.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		F39756C6E81CF190C5ED508D /* ConferencesAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F39756426435068CD2E8E3C0 /* ConferencesAppUITests.swift */,
+				F397563488B741C5C77A9090 /* ConferencesAppUITestsLaunchTests.swift */,
+			);
+			path = ConferencesAppUITests;
+			sourceTree = "<group>";
+		};
+		F39756FD7C05967BA130CE0F /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				F3975855CEE945F741266FA8 /* conferencesData.json */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		F3975832477C03717DD34E9F /* ConferencesApp */ = {
+			isa = PBXGroup;
+			children = (
+				F39755E164996F143B569A46 /* Assets.xcassets */,
+				F3975CDFAEDB08FB7F80527B /* Preview Content */,
+				F3975ED9A8ABAE1EF8641D71 /* ConferencesAppApp.swift */,
+				F3975B182E03D6686E3E7CEE /* Model */,
+				F3975C46109E5BB5F09CA975 /* Network */,
+				F3975137D7910B5070787483 /* View */,
+				F39756FD7C05967BA130CE0F /* Resources */,
+			);
+			path = ConferencesApp;
+			sourceTree = "<group>";
+		};
+		F3975975780E6263A8BA2321 /* ConferencesAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				F3975E75D861061641FB1F84 /* ConferencesAppTests.swift */,
+			);
+			path = ConferencesAppTests;
+			sourceTree = "<group>";
+		};
+		F3975B182E03D6686E3E7CEE /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				F3975AF19072EA66DE4B5EE1 /* Conference.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		F3975C46109E5BB5F09CA975 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				F3975FC77CC51832FB86AD79 /* Data.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		F3975CDFAEDB08FB7F80527B /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				F3975496D41E861841080D98 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		F3975D46F9540EAEAB5344AF = {
+			isa = PBXGroup;
+			children = (
+				F3975EC9EC9B37D1D088132E /* Products */,
+				F3975832477C03717DD34E9F /* ConferencesApp */,
+				F3975975780E6263A8BA2321 /* ConferencesAppTests */,
+				F39756C6E81CF190C5ED508D /* ConferencesAppUITests */,
+			);
+			sourceTree = "<group>";
+		};
+		F3975EC9EC9B37D1D088132E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F39757B9084D10D7A95C52BD /* ConferencesApp.app */,
+				F3975F67364496FA9F5302A6 /* ConferencesAppTests.xctest */,
+				F397561E02E9BEFC9013C5F8 /* ConferencesAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F39758EDBF05CCE89434F3F2 /* ConferencesAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F397512BB77F7A92CF521F40 /* Build configuration list for PBXNativeTarget "ConferencesAppUITests" */;
+			buildPhases = (
+				F3975CE98E08B3A8AC729826 /* Sources */,
+				F3975DB22EB97C827E0A8476 /* Frameworks */,
+				F39756C18076951D744B93B5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F3975F778DEBC9ECD6780E1A /* PBXTargetDependency */,
+			);
+			name = ConferencesAppUITests;
+			productName = ConferencesAppUITests;
+			productReference = F397561E02E9BEFC9013C5F8 /* ConferencesAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		F3975F7A9B01948DE3F3F418 /* ConferencesAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F39756AED7229EB388A7E17C /* Build configuration list for PBXNativeTarget "ConferencesAppTests" */;
+			buildPhases = (
+				F3975AE0B7446818C558930D /* Sources */,
+				F3975A8C56BFA296C3140BC0 /* Frameworks */,
+				F3975F1B30C29601D54D9CAD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F3975465E5EF4ECE586C22F7 /* PBXTargetDependency */,
+			);
+			name = ConferencesAppTests;
+			productName = ConferencesAppTests;
+			productReference = F3975F67364496FA9F5302A6 /* ConferencesAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F3975FC9EB84317A183F6E4B /* ConferencesApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F3975131CC259AB9B51C30C3 /* Build configuration list for PBXNativeTarget "ConferencesApp" */;
+			buildPhases = (
+				F397568CFC4A2993B4699AD3 /* Sources */,
+				F397579EBACEDB424BAC00C1 /* Frameworks */,
+				F39754EE07AF6EEC7095D7B6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ConferencesApp;
+			productName = ConferencesApp;
+			productReference = F39757B9084D10D7A95C52BD /* ConferencesApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F397588ECB7B6519663837C6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				TargetAttributes = {
+					F3975FC9EB84317A183F6E4B = {
+						DevelopmentTeam = E9YX4X8TYH;
+					};
+				};
+			};
+			buildConfigurationList = F39754ABCF8870CBB41F25D1 /* Build configuration list for PBXProject "ConferencesApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				English,
+				en,
+			);
+			mainGroup = F3975D46F9540EAEAB5344AF;
+			productRefGroup = F3975EC9EC9B37D1D088132E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F3975FC9EB84317A183F6E4B /* ConferencesApp */,
+				F3975F7A9B01948DE3F3F418 /* ConferencesAppTests */,
+				F39758EDBF05CCE89434F3F2 /* ConferencesAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F39754EE07AF6EEC7095D7B6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F3975FAF7FE12AC2399F080E /* Assets.xcassets in Resources */,
+				F39754857E0FD08D41071670 /* Preview Assets.xcassets in Resources */,
+				F39751A6E37EC3FE8AFAA2E3 /* conferencesData.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F39756C18076951D744B93B5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F3975F1B30C29601D54D9CAD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F397568CFC4A2993B4699AD3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F3975E4F9DFA94CA6D1CDA2F /* ConferencesAppApp.swift in Sources */,
+				F3975995C1CF05F9D696B87D /* ContentView.swift in Sources */,
+				F39758ED7564596FA67811A5 /* ConferenceList.swift in Sources */,
+				F397546B332F0FAD48599302 /* ConferenceDetails.swift in Sources */,
+				F39754C352A4B0A4235C6899 /* Data.swift in Sources */,
+				F397567FDC2709BBEC1EE0E3 /* Conference.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F3975AE0B7446818C558930D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F3975372150F7A1FF3687C09 /* ConferencesAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F3975CE98E08B3A8AC729826 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F39754495E247F59666C2029 /* ConferencesAppUITests.swift in Sources */,
+				F3975EFD0510AB6BFE9D507C /* ConferencesAppUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F3975465E5EF4ECE586C22F7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F3975FC9EB84317A183F6E4B /* ConferencesApp */;
+			targetProxy = F397552A635F1F6F80B5F892 /* PBXContainerItemProxy */;
+		};
+		F3975F778DEBC9ECD6780E1A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F3975FC9EB84317A183F6E4B /* ConferencesApp */;
+			targetProxy = F3975DE3DF0640BFCC1AAA52 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		F397502859AFFD452B891BC9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ConferencesApp.app/ConferencesApp";
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ch.keepcalm.ConferencesAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Debug;
+		};
+		F3975196E64FA15209B8CD16 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				OTHER_LDFLAGS = "\"-Xlinker -interposable\"";
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F39756E65CB8E1B65CCD9DE2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ch.keepcalm.ConferencesAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ConferencesApp;
+			};
+			name = Release;
+		};
+		F39758A290761FCF2CCAF58D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ConferencesApp/Preview Content\"";
+				DEVELOPMENT_TEAM = E9YX4X8TYH;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ch.keepcalm.ConferencesApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F3975946AA1EFB6818C31271 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = "\"-Xlinker -interposable\"";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F3975C49344CA4161DD29B00 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ConferencesApp.app/ConferencesApp";
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ch.keepcalm.ConferencesAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Release;
+		};
+		F3975CE9DED434E5D47FD703 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ConferencesApp/Preview Content\"";
+				DEVELOPMENT_TEAM = E9YX4X8TYH;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ch.keepcalm.ConferencesApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F3975E70374EF30016B8BE33 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ch.keepcalm.ConferencesAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ConferencesApp;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F397512BB77F7A92CF521F40 /* Build configuration list for PBXNativeTarget "ConferencesAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F3975E70374EF30016B8BE33 /* Debug */,
+				F39756E65CB8E1B65CCD9DE2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F3975131CC259AB9B51C30C3 /* Build configuration list for PBXNativeTarget "ConferencesApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F39758A290761FCF2CCAF58D /* Debug */,
+				F3975CE9DED434E5D47FD703 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F39754ABCF8870CBB41F25D1 /* Build configuration list for PBXProject "ConferencesApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F3975946AA1EFB6818C31271 /* Debug */,
+				F3975196E64FA15209B8CD16 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F39756AED7229EB388A7E17C /* Build configuration list for PBXNativeTarget "ConferencesAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F397502859AFFD452B891BC9 /* Debug */,
+				F3975C49344CA4161DD29B00 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F397588ECB7B6519663837C6 /* Project object */;
+}
